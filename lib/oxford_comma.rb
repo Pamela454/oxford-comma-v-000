@@ -12,6 +12,7 @@ elsif array.length == 3
 elsif array.length > 3
 array.insert(0, " and " )
 end
+array.join(',')
 end
 
 #array to string
