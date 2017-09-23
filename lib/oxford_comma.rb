@@ -7,7 +7,7 @@ elseif array.length == 2
 array.insert( "and" )
   #and 'and' before last element if array > three elements
 elseif array.length > 3
-array.insert(-2, 'and')
+array.insert(-1, 'and')
 end
 end
 
