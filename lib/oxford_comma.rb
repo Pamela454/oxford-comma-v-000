@@ -2,6 +2,7 @@ def oxford_comma(array)
   #string with no additional formatting, 1-element array
   if array.length == 1
     array.join
+  end
   #add "and" between elements in 2-element array
 if array.length == 2
 return "#{array[0]} and #{array[1]}"
