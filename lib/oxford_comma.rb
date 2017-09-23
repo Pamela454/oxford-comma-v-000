@@ -6,7 +6,7 @@ def oxford_comma(array)
 else array elements.length = 2
 array.insert( "and" )
   #and 'and' before last element if array > three elements
-else array
+else array elements.length > 3
 
 end
 
