@@ -7,7 +7,7 @@ elsif array.length == 2
 array.insert( 'and' )
   #and 'and' before last element if array > three elements
 elsif array.length > 2
-array.insert(0, " and " )
+array.insert(-1, " and " )
 end
 array.join(', ')
 end
