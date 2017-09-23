@@ -9,7 +9,7 @@ array.insert( 'and' )
 elsif array.length > 2
 array.insert(0, " and " )
 end
-array.join(',')
+array.join(', ')
 end
 
 #array to string
