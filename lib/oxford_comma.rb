@@ -1,6 +1,6 @@
 def oxford_comma(array)
   #string with no additional formatting, 1-element array
-  if array.length = 1
+  if array.length == 1
     array.join
   #add "and" between elements in 2-element array
 elseif array.length == 2
