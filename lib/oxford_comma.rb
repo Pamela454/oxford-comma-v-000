@@ -4,7 +4,7 @@ def oxford_comma(array)
     array.join
   #add "and" between elements in 2-element array
 else array elements.lenght > 2
-array.insert()
+array.insert( "and" )
   #and 'and' before last element if array > three elements
 end
 
