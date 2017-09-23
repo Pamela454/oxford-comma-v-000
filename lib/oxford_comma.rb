@@ -9,5 +9,6 @@ array.insert( "and" )
 elseif array.length > 3
 array.insert(-2, 'and')
 end
+end
 
 #array to string
